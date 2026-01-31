@@ -1,4 +1,10 @@
+# Data / test scripts
 *.parquet
+*.csv
+*.bash
+
+# Config / secrets
+.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -6,17 +12,13 @@ __pycache__/
 *$py.class
 
 # Python-generated files
-__pycache__/
 *.py[oc]
 build/
 dist/
 wheels/
 *.egg-info
+.ipynb_checkpoints
 
 # Virtual environments
 .venv
-
-# Test scripts and files
-pipeline/pastebin.bash
-pipeline/green_tripdata_2025-11.parquet
-pipeline/taxi_zone_lookup.csv
+venv/
