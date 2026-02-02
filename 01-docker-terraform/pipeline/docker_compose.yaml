@@ -31,7 +31,7 @@ services:
       POSTGRES_PASSWORD: root
       POSTGRES_DB: ny_taxi
     ports:
-      - "5433:5432"
+      - "5432:5432"
     volumes:
       - ny_taxi_postgres_data:/var/lib/postgresql/data
 

@@ -9,7 +9,7 @@ from tqdm.auto import tqdm
 pg_user = 'root'
 pg_pass = 'root'
 pg_host = 'localhost'
-pg_port = 5433
+pg_port = 5432
 pg_db = 'ny_taxi'
 year = 2021
 month = 1
