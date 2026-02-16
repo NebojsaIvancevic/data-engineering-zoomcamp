@@ -76,4 +76,5 @@ terraform.rc
 target/
 dbt_packages/
 logs/
+.user.yml
 # end dbt Cloud content

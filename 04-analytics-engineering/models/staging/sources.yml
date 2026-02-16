@@ -1,0 +1,9 @@
+version: 2
+sources:
+    - name: raw_data
+      description: "raw_data"
+      database: zoomcamp-487513
+      schema: nytaxi
+      tables:
+        - name: yello_tripdata
+        - name: green_tripdata
