@@ -1,9 +1,9 @@
 version: 2
 sources:
-    - name: raw_data
-      description: "raw_data"
+    - name: staging
+      description: "Raw data for staging."
       database: zoomcamp-487513
-      schema: nytaxi
+      schema: zoomcamp
       tables:
-        - name: yello_tripdata
+        - name: yellow_tripdata
         - name: green_tripdata

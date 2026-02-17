@@ -1,6 +1,7 @@
 # Data / test scripts
 *.parquet
 *.csv
+*.csv.*
 *.bash
 
 # Config / secrets
@@ -21,6 +22,9 @@ dist/
 wheels/
 *.egg-info
 .ipynb_checkpoints
+
+# vs code
+.vscode
 
 # Virtual environments
 .venv
@@ -76,5 +80,6 @@ terraform.rc
 target/
 dbt_packages/
 logs/
+profiles.yml
 .user.yml
 # end dbt Cloud content

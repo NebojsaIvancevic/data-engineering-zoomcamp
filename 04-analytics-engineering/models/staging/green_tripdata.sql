@@ -1,1 +1,0 @@
-SELECT count(*) as total_rows FROM zoomcamp-487513.zoomcamp.green_tripdata
